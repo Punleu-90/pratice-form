@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: aliceblue;
+    width: 900px;
+    height: 1000px;
+    background-color:  rgb(18, 61, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 780px;
+    border-radius: 10px;
+    background-color: white;
+}
+h1{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 209, 209);
+    border-radius: 10px 10px 0 0 ;
+    color: rgb(115, 114, 113);
+}
+form{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 355px 335px;
+    grid-template-rows: repeat(6, 60px);
+    gap: 10px;
+}
+label{
+    font-size: large;
+    color: rgb(17, 229, 158);
+}
+input{
+    color: gray;
+    width: 335px;
+    border: 1px solid gray;
+    height: 25px;
+    border-radius: 3px;
+}
+.Email{
+    grid-row: 2;
+    grid-column: 1/3;
+
+}
+.password{
+    grid-row: 3;
+    grid-column: 1/2;
+}
+.confirm{
+    grid-row: 3;
+    grid-column: 2/3;
+}
+.gender{
+    grid-row: 4;
+    grid-column: 1/2;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+#gender{
+    width: 12px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.Hobble{
+    grid-row: 4;
+    grid-column: 2/3;
+}
+#hobble{
+    width: 15px;
+    margin-right: 3px;
+    margin-left: 15px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.Source{
+    grid-row: 5;
+    grid-column: 1/2;
+}
+.opt{
+    margin-top: 10px;
+    width: 335px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.k{
+    display: flex;
+    align-items: center;
+}
+#vol{
+    width: 250px;
+    margin-right: 20px;
+}
+.Upload{
+    grid-row: 6;
+    grid-column: 1/2;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+}
+.Age{
+    grid-row: 6;
+    grid-column: 2/3;
+}
+.Create{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(210, 209, 209);
+    border-radius: 0 0 10px 10px ;
+    color: rgb(115, 114, 113);
+}
+.Create button{
+    background-color: rgb(32, 232, 182);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    margin-right: 20px;
+}
+.Create button:hover{
+    background-color: rgb(139, 253, 224);
+}
